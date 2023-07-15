@@ -1,0 +1,65 @@
+.navbar{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    margin: 0 auto;
+    max-width: 133rem;
+    width: 100%;
+    z-index: 99999;
+    background-color : #fffafa;
+}
+.pic{
+    display: flex;
+    align-items: center;
+}
+.pic a{
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.ul li{
+    padding: 9px 15px;
+}
+.logo{
+    padding-left: 2%;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ul li a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar__buttons {
+    position: relative;
+    align-items: center;
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    gap: 1.5rem;
+    padding: 5px;
+    right: 30px;
+}
+.signup-btn{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.login-btn{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #ff4d30;
+    color: #fff;
+    padding: 9px 20px;
+    border-radius: 5px;
+}

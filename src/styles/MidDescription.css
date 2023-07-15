@@ -1,0 +1,20 @@
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Rubik,sans-serif;
+    background-color : #fffafa;
+}
+.heading{
+    margin-top: 160px;
+    margin-bottom: 5px;
+}
+.rental-fleet{
+    margin: 5px 0px;
+    font-size: 42px;
+}
+.para{
+    margin: 5px 0px;
+    font-size: 21px;
+    padding: 2px;
+}

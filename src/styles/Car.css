@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+.image{
+    background-color : #fffafa;
+    width: 60vw;
+}
+.container2{
+    display: flex;
+    height: 530px;
+}
+.text{
+    background-color : #fffafa;
+    padding: 30px 25px;
+}
+.plan-your-trip{
+    padding-top: 10px;
+}
+.save-big{
+    padding-top: 20px;
+    font-size: 50px;
+}
+.big{
+    color: #ff4d30;
+}
+.rent-car{
+    padding-top: 40px;
+    font-family: Rubik,sans-serif;
+    color: #4b4b5b;
+}
+.btns{
+    background-color : #fffafa;
+    padding-top: 60px;
+}
+.book-ride{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    margin-right: 70px;
+    background-color: #ff4d30;
+    padding: 17px 50px;
+    border-radius: 5px;
+}
+.learn-more{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+.imageDiv{
+    background-color : #fffafa;
+}

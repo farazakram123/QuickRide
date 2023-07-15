@@ -1,0 +1,56 @@
+.outer-box
+{
+    display: flex;
+    flex-direction: column;
+    font-family: Rubik,sans-serif;
+}
+.inner-box1{
+    display: flex;
+    flex-direction: column;
+    background-color : #fff7f7;
+    height: 400px;
+    justify-content: end;
+    align-items: center;
+    box-sizing: border-box;
+}
+.plan-your-trip{
+    /* background-color: #f99898; */
+    margin: 0px 0px 30px 0px;
+    font-size: 23px;
+}
+.quick-and-easy-car-rental{
+    /* background-color: #f99898; */
+    margin: 0px 0px 30px 0px;
+    font-size: 42px;
+    font-weight: 700;
+}
+.inner-box2{
+    display: flex;
+    height: 363px;
+    background-color : #fffafa;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 25px;
+}
+.box2-inner-box{
+    box-sizing: border-box; 
+    width: 280px;
+    height: 320px;
+}
+.box2-inner-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-weight: 700;
+}
+.small-images{
+    height: 165px;
+    width: 165px;
+}
+.inner-text{
+    padding: 11px 0px 10px 33px;
+    font-size: 16px;
+}
