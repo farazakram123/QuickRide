@@ -1,0 +1,79 @@
+.container-register{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( 92.7deg,  rgba(245,212,212,1) 8.5%, rgba(252,251,224,1) 90.2% );
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resister-page{
+    height: 72%;
+    width: 30%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 253, 253);
+    box-shadow: 6px 6px rgb(200, 170, 170);
+}
+.layout{
+    height: 15%;
+    background-color: #fff;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.name{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.first-name{
+    height: 70%;
+    width: 45%;
+    margin: 6px;
+    color: black;
+    border: .3px solid black;
+    border-radius: 2px;
+}
+.last-name{
+    height: 70%;
+    width: 45%;
+    margin: 6px;
+    color: black;
+    border: .3px solid black;
+    border-radius: 2px;
+}
+.phone{
+    display: flex;
+    justify-content: start;
+}
+.set-inner-box{
+    height: 70%;
+    width: 94%;
+    margin: 6px;
+}
+.register-btn{
+    background-color: #fff;
+    width: 100%;
+    height: 25%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    height: 45%;
+    width: 50%;
+    background-color: #ff4d30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 3px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}

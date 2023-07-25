@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import image from "../images/navbarCar.png"
 import "../styles/Navbar.css"
 
@@ -7,19 +8,19 @@ function Navbar() {
             <nav className="navbar">
                 <div className="pic">
                     <img src={image} alt="Car" className="logo" />
-                    <a href="/"><h3>QuickRide</h3></a>
+                    <Link to="/"><h3>QuickRide</h3></Link>
                 </div>
                 <ul className="ul">
-                    <li><a href="home-link">Home</a></li>
-                    <li><a href="about-link">About</a></li>
-                    <li><a href="models-link">Vehicle Models</a></li>
-                    <li><a href="testimonials-link">Testimonials</a></li>
-                    <li><a href="team-link">Our Team</a></li>
-                    <li><a href="contact-link">Contact</a></li>
+                    <li><Link to="home-link">Home</Link></li>
+                    <li><Link to="about-link">About</Link></li>
+                    <li><Link to="models-link">Vehicle Models</Link></li>
+                    <li><Link to="testimonials-link">Testimonials</Link></li>
+                    <li><Link to="team-link">Our Team</Link></li>
+                    <li><Link to="contact-link">Contact</Link></li>
                 </ul>
                 <div className="navbar__buttons">
-                    <a className="signup-btn" href="/">SignUp</a>
-                    <a className="login-btn" href="/">Login</a>
+                    <Link className="signup-btn" to="/register">SignUp</Link>
+                    <Link className="login-btn" to="/login">Login</Link>
                 </div>
             </nav>
         </>

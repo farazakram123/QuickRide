@@ -1,20 +1,17 @@
-import Navbar from "./components/Navbar.jsx"
-import BookACar from "./components/BookACar.jsx"
-import Car from "./components/Car.jsx"
-import Description from "./components/Description.jsx"
-import MidDescription from "./components/MidDescription.jsx"
-import DisplayCar from "./components/DisplayCar.jsx"
+import React from "react"
+import { Routes, Route } from "react-router-dom"
+import Home from "./components/Home.jsx"
+import Register from './components/Register.jsx'
+import Login from './components/Login.jsx'
 
 function App() {
-
   return (
     <>
-      <Navbar />
-      <Car />
-      <BookACar />
-      <Description />
-      <MidDescription />
-      <DisplayCar />
+      <Routes>
+        <Route path = "/" element = {<Home />} />
+        <Route path = "/register" element = {<Register />} />
+        <Route path="/login" element = {<Login />} />
+      </Routes>
     </>
   )
 }
